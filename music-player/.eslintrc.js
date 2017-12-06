@@ -21,5 +21,12 @@ module.exports = {
     'generator-star-spacing': 'off',
     // allow debugger during development
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    // allow debugger during development
+    // 'eol-last': 0, 不检测新文件末尾是否有空行
+    // 'space-before-function-paren': 0 
+    /**
+     * 'arrow-parens': 0,  allow paren-less arrow functions
+     * 'generator-star-spacing': 0,   allow aysnc-await
+     */
   }
 }
